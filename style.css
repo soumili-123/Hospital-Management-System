@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f8ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background: #008080;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+#container div {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 0 10px #aaa;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    background: #008080;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #006666;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}

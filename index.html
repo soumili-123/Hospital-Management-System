@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hospital Management System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>🏥 Hospital Management System</h1>
+
+<div id="container">
+    <div id="registration">
+        <h2>Patient Registration</h2>
+        <input type="text" id="patientName" placeholder="Name">
+        <input type="number" id="patientAge" placeholder="Age">
+        <input type="text" id="patientContact" placeholder="Contact">
+        <input type="text" id="patientAilment" placeholder="Ailment">
+        <button onclick="registerPatient()">Register Patient</button>
+    </div>
+
+    <div id="doctors">
+        <h2>Doctors</h2>
+        <ul id="doctorList"></ul>
+    </div>
+
+    <div id="appointments">
+        <h2>Book Appointment</h2>
+        <select id="selectPatient">
+            <option value="">Select Patient</option>
+        </select>
+        <select id="selectDoctor">
+            <option value="">Select Doctor</option>
+        </select>
+        <button onclick="bookAppointment()">Book Appointment</button>
+
+        <h3>Appointments</h3>
+        <ul id="appointmentList"></ul>
+    </div>
+</div>
+
+<script src="hms.js"></script>
+</body>
+</html>
